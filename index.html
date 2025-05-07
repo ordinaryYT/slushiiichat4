@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>SlushiiiSZN Live Chat Viewer</title>
+  <style>
+    body {
+      background-color: #121212;
+      color: white;
+      font-family: Arial, sans-serif;
+      text-align: center;
+      padding: 40px;
+    }
+
+    h1 {
+      color: #ff0000;
+    }
+
+    .chat-wrapper {
+      display: flex;
+      justify-content: center;
+      gap: 30px;
+      flex-wrap: wrap;
+      margin-top: 30px;
+    }
+
+    iframe {
+      border: none;
+      border-radius: 10px;
+    }
+  </style>
+</head>
+<body>
+  <h1>SlushiiiSZN chat</h1>
+
+  <div class="chat-wrapper">
+    <!-- Twitch Chat Embed -->
+    <iframe
+      src="https://www.twitch.tv/embed/SlushiiiSZN/chat?parent=yourdomain.com"
+      width="350"
+      height="500"
+      allowfullscreen>
+    </iframe>
+
+    <!-- Streamlabs Chat Embed (YouTube or Twitch) -->
+    <!-- Replace the URL below with your Streamlabs Chat Widget URL -->
+    <iframe
+      src="https://streamlabs.com/widgets/chat-box/v1/24EEEA898CF98543CDDEAB754AFD1CAB509D4A0D92769AACE84B36A617CFB20B4506157C0C043DC92AA37CCC965AF7CEEC208CF7218A355767F32DBD065FA4098D5A181A90BB451353BB08B4ABDAB7EDE96C5B47273D8AA4DA1A90A00511238D38FAA949018A281CB68EBFDB2EC73F25E5057CC4CB8B479CCDC28262CA"
+      width="600"
+      height="500"
+      frameborder="0"
+      scrolling="no">
+    </iframe>
+  </div>
+</body>
+</html>
